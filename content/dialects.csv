@@ -1,0 +1,12 @@
+# Nran dialect catalog
+# To add a place:
+# 1. Add a row under the header.
+# 2. Put the recording in public/audio/ and set audio to audio/your-file.wav
+# 3. Restart the dev server, or rebuild for production.
+# Quote any field that contains a comma. ids stay unique. latitude and longitude are decimal degrees.
+id,name_hy,name_en,region_hy,region_en,description_hy,description_en,speaker_hy,speaker_en,latitude,longitude,audio
+ararat,Արարատյան,Araratian,Արարատի մարզ,Ararat,"Արարատյան դաշտի խոսքը մոտ է գրական արևելահայերենին, բայց պահում է տեղի շեշտն ու բառերը։ Այս քարտը նմուշ է։","Speech of the Ararat valley sits close to literary Eastern Armenian, with a local accent and local words. This card is a sample.",Նմուշային ձայն,Sample voice,39.953,44.550,audio/ararat.wav
+lori,Լոռի,Lori,Լոռու մարզ,Lori,"Լոռիի խոսքն ունի իր ռիթմն ու բառերը, որոնցով այն տարբերվում է մայրաքաղաքից։ Այս քարտը նմուշ է։","Lori speech has its own rhythm and words, distinct from the capital. This card is a sample.",Նմուշային ձայն,Sample voice,40.810,44.488,audio/lori.wav
+shirak,Շիրակ,Shirak,Շիրակի մարզ,Shirak,Շիրակի խոսքը ճանաչվում է իր շեշտով։ Գյումրիում այն դեռ առօրյա լեզու է։ Այս քարտը նմուշ է։,Shirak speech is recognized by its accent. In Gyumri it is still everyday language. This card is a sample.,Նմուշային ձայն,Sample voice,40.789,43.848,audio/shirak.wav
+syunik,Սյունիք,Syunik,Սյունիքի մարզ,Syunik,"Սյունիքի խոսքում լսվում է լեռնաշխարհի հնչողությունը՝ տեղային բառերով ու տեմպով։ Այս քարտը նմուշ է։","In Syunik speech you hear the highlands: local words and a local pace. This card is a sample.",Նմուշային ձայն,Sample voice,39.511,46.342,audio/syunik.wav
+tavush,Տավուշ,Tavush,Տավուշի մարզ,Tavush,Տավուշի խոսքը կապված է անտառաշատ գյուղերի և հովիտների հետ։ Այս քարտը նմուշ է։,Tavush speech belongs to forest villages and valleys. This card is a sample.,Նմուշային ձայն,Sample voice,40.879,45.149,audio/tavush.wav
