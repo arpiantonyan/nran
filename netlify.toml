@@ -1,6 +1,11 @@
 [build]
-  command = "next build"
+  command = "npm run build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Force the OpenNext / Next.js Runtime (your UI showed Runtime: Not set,
+# which makes Netlify serve .next as static files → Page not found).
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
